@@ -1,0 +1,73 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CrystalsCollector!</title>
+  <meta name="description" content="Count Your Points!">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<!-- Game title -->
+<h1 id="game-title">CrystalsCollector!</h1>
+
+<!-- Game instructions -->
+<p id="instructions">
+
+	<b>You will be given a random number at the start of the game in the green box below.<br><br>
+
+	There are four crystals below. By clicking on a crystal, you will add a specific number of points to your total score.<br><br>
+
+	You win the game by matching your total score to the random number generated below, and you lose the game if your total score goes above the random number.<br><br>
+
+	The value of each crystal is not known until you click on each one of them.<br><br>
+
+	Every time you restart the game, the number of points assigned to each crystal changes.</b>
+
+</p>
+
+<!-- Random number for player to match (between 19 and 120) -->
+<div>
+    <h1 id="random-number"></h1>
+<!-- Keeping track of #wins and #losses in the same row in a different box-->
+    <h3 id="wins"><br><br></h3>
+    <h3 id="losses"><br><br></h3>
+</div>
+<!-- Images of crystals in the next row -->
+<div>
+    <img class="crystal" id="crystal-1" src="./assets/images/crystal1.jpg" alt="blue crystals">
+</div>
+<div>
+    <img class="crystal" id="crystal-2" src="./assets/images/crystal2.jpg" alt="diamond">
+</div>
+<div>
+    <img class="crystal" id="crystal-3" src="./assets/images/crystal3.jpg" alt="white crystals">
+</div>
+<div>
+    <img class="crystal" id="crystal-4" src="./assets/images/crystal4.jpg" alt="red heart crystal">
+</div>
+<!-- Tell player what the number is counting -->
+<div>
+    <p id="score-text">Your total score is:</p>
+<!-- Add points with each click of a crystal -->
+    <p id="score-number"></p>
+</div>
+ 
+  <script type="text/javascript" src="./assets/javascript/game.js"></script>
+
+
+
+</body>
+</html>
+
+
+
+
+
+</body>
+</html>

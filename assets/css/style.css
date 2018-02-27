@@ -1,0 +1,143 @@
+/*Background*/
+body {
+	background-color:powderblue;
+}
+
+/*Game title box and text*/
+#game-title {
+	background-color: orange;
+	height: 50px;
+	width: 33%;
+	font-weight: bold;
+	font-size: 30px;
+	padding:30px;
+	margin: 30px;
+	color: white;
+	text-align: center
+}	
+
+/*Instructions box and text*/
+#instructions {
+	background-color: beige;
+	font-weight: bold;
+	padding:30px;
+	margin: 30px;
+	color: green;
+	width: 58%;
+	align-content: center;
+}
+
+/*Random number for player to match (between 19 and 120)*/
+#random-number {
+	float: left;
+	background-color: DarkSeaGreen;
+	font-weight: bold;
+	font-size: 60px;
+	padding:30px;
+	margin: 30px;
+	margin-top: -5px;
+	color: black;
+	height: 90px;
+	width: 25%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/*Keep track of # of wins and losses*/
+#wins {
+	float: left;
+	background-color: aqua;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 30px;
+	/*margin: 30px;*/
+	margin-top: -5px;
+	color: black;
+	height: 25px;
+	width: 20%;
+	text-align: left;
+}
+
+#losses {
+	float: left;
+	background-color: aqua;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 30px;
+	/*padding-bottom: -30px;*/
+	/*margin: 30px;*/
+	margin-top: -5px;
+	color: black;
+	height: 25px;
+	width: 20%;
+	text-align: left;
+}
+
+/*Crystal picture #1*/
+#crystal-1 {
+	clear: left;
+	float:left;
+	height: 100px;
+	width: 100px;
+	margin: 5px;
+	margin-top: -10px;
+	margin-left: 25px;
+	padding: 5px;
+}
+
+/*Crystal picture #2 #3 #4*/
+#crystal-2 {
+	float:left;
+	height: 100px;
+	width: 100px;
+	margin: 5px;
+	margin-top: -10px;
+	padding: 5px;
+}
+
+#crystal-3 {
+	float:left;
+	height: 100px;
+	width: 100px;
+	margin: 5px;
+	margin-top: -10px;
+	padding: 5px;
+}
+
+#crystal-4 {
+	float:left;
+	height: 100px;
+	width: 100px;
+	margin: 5px;
+	margin-top: -10px;
+	padding: 5px;
+}
+
+/*Score achieved text*/
+#score-text {
+	clear: left;
+	float:left;
+	background-color: DarkCyan;
+	font-weight: bold;
+	height: 15px;
+	width: 20%;
+	margin: 15px;
+	margin-left: 30px;
+	padding: 5px;
+}
+
+/*Score achieved counter*/
+#score-number {
+	clear: left;
+	float:left;
+	background-color: DarkCyan;
+	height: 80px;
+	width: 20%;
+	margin: 5px;
+	margin-left: 30px;
+	margin-top: -15px;
+	padding: 5px;
+	font-size: 60px;
+	text-align: center;
+	vertical-align: middle;
+}
